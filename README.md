@@ -1,5 +1,7 @@
 # 必胜客礼品卡密码后4位枚举脚本
+
 ## 免责说明
+
 1.仅限用户对本人合法持有的必胜客礼品卡进行密码（后4位）枚举测试，以修正因遗忘或错误输入导致的卡密验证失败问题  
 2.仅供学习交流，不得用于任何非法或未经授权的用途。  
 3.严禁将本脚本用于：  
@@ -12,17 +14,38 @@
     网络请求异常、数据丢失或其他不可预见的风险。  
     使用者应自行承担上述风险及后果。  
 4.作者（本项目维护者）仅提供技术演示和学习参考，不对使用者因违反法律法规、服务条款或本声明而产生的任何直接、间接损失承担任何责任。如使用者滥用脚本，须自行承担相应的法律后果。  
+
 ## 使用方法
+
 最差情况下，脚本大概要跑6~7个小时,如果有linux云服务器的话,可以使用make run变成后台进程执行
 日志文件和密码结果分别放在脚本当前目录下的may_be_true_passwd.txt和log.txt中
+
 ### linux编译方法
-shell环境下:  
-  make  
+
+shell环境下执行以下命令:  
+
+````bash
+make
+````
+
 ### linux运行方法
+
 shell环境下:  
+
+````bash
+chmod +x ./run_pizzahunt_script.sh
 ./run_pizzahunt_script.sh
+````
+
 ### Windows编译方法
-    将所有源代码文件导入Visual Studio IDE后编译
+
+将所有源代码文件导入Visual Studio IDE后编译
+
 ### Windows运行方法
+
 CMD或者PowerShell环境下:  
-  .\run_pizzahunt_script.bat
+
+````  cmd
+.\run_pizzahunt_script.bat
+````
+
