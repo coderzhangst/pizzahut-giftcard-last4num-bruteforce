@@ -17,8 +17,8 @@
 日志文件和密码结果分别放在脚本当前目录下的may_be_true_passwd.txt和log.txt中
 ### linux
 shell环境下:
-  make
+  make  
   make run #后台(守护)进程运行
 ### Windows
-CMD或者PowerShell环境下:
+CMD或者PowerShell环境下:  
   .\run_pizzahunt_script.bat
