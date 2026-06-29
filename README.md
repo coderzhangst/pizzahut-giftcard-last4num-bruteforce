@@ -15,10 +15,10 @@
 ## 使用方法
 最差情况下，脚本大概要跑6~7个小时,如果有linux云服务器的话,可以使用make run变成后台进程执行
 日志文件和密码结果分别放在脚本当前目录下的may_be_true_passwd.txt和log.txt中
-### linux
-shell环境下:
+### linux运行方法
+shell环境下:  
   make  
   make run #后台(守护)进程运行
-### Windows
+### Windows运行方法
 CMD或者PowerShell环境下:  
   .\run_pizzahunt_script.bat
