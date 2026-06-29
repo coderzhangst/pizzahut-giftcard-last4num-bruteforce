@@ -1,0 +1,5 @@
+{
+    "token": "你抓包的token",
+    "cardSequence": "你的卡号,D开头的",
+    "paymentCodePrefix": "你卡的密码前缀,去除后4位"
+}
